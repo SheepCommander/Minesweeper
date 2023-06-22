@@ -1,0 +1,7 @@
+# Godot 4+ specific ignores
+.godot/
+# From https://docs.godotengine.org/en/stable/tutorials/best_practices/version_control_systems.html#official-git-plugin
+# git config --global core.autocrlf input
+*.translation
+export_presets.cfg
+.mono/

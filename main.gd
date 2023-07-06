@@ -1,12 +1,16 @@
 extends Node
 
-@export var col := 10
-@export var row := 10
-@export var bombs := 10
-var Tile := preload("res://tile.tscn")
+var col := 10
+var row := 10
+var bombs := 10
+var Tile : PackedScene = preload("res://tile.tscn")
 var Tiles
 @export var Tile_Width := 64
 
+func settings(_col : int, _row : int, _bombs : int):
+	col = _col
+	row = _row
+	bombs = _bombs
 
 func _ready():
 	randomize() # making the outcome diff each time game start

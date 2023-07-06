@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://menu.gd" id="1_lbfuv"]
 [ext_resource type="FontFile" uid="uid://mdisstgvciyq" path="res://RobotoMono-Regular.ttf" id="1_to7ys"]
-[ext_resource type="PackedScene" uid="uid://cfc351gjqrrn" path="res://main.tscn" id="2_scq76"]
+[ext_resource type="PackedScene" uid="uid://uorewbu7k6ph" path="res://size_menu.tscn" id="2_urxmw"]
 
 [sub_resource type="FontVariation" id="FontVariation_rdmxw"]
 
@@ -29,7 +29,7 @@ corner_radius_bottom_left = 15
 
 [node name="Menu" type="Node"]
 script = ExtResource("1_lbfuv")
-mainGameScene = ExtResource("2_scq76")
+mainGameScene = ExtResource("2_urxmw")
 
 [node name="ColorRect" type="ColorRect" parent="."]
 offset_right = 1034.0
